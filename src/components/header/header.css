@@ -1,0 +1,17 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(221, 255, 127);
+    margin: 0;
+    color: rgb(218, 136, 29);
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navlinks li {
+    padding: 5px;
+}

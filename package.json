@@ -34,7 +34,6 @@
   "bugs": {
     "url": "https://github.com/AlexTrejo92/Personal-Portfolio-React-CATV/issues"
   },
-  "homepage": "https://github.com/AlexTrejo92/Personal-Portfolio-React-CATV#readme",
   "browserslist": {
     "production": [
       ">0.2%",
