@@ -1,17 +1,35 @@
+:root {
+    --darkblue: #001B2E;
+    --blue: #2E86AB;
+    --platinum: #D8DBE2;
+    --orange: #FF715B;
+}
+
 .header {
-    display:flex;
+    /* display:flex;
     justify-content: space-between;
-    background-color: rgb(221, 255, 127);
+    align-items: center; */
+    background-image: linear-gradient(180deg, var(--blue), var(--darkblue));
     margin: 0;
     color: rgb(218, 136, 29);
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
 }
 
 .navlinks {
     display: flex;
     flex-direction: row;
     list-style: none;
+    justify-content: center;
 }
 
 .navlinks li {
     padding: 5px;
+}
+
+.profilePic {
+    height: 100px;
+    width: auto;
+    border-radius: 50px;
+    margin: 20px;
 }

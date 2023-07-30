@@ -1,5 +1,21 @@
 .footer {
-    color: red;
-    background-color: azure;
-    border: 5px, solid, red;
+    text-align: center;
+    background-image: linear-gradient(180deg, var(--darkblue), #20394b);
+    color: var(--platinum);
+    padding: 10px 0px;
+    height: auto;
+    margin-top: 10px;
+    line-height: 1.3em;
+}
+
+.footer a {
+    padding: 5px;
+}
+
+.footer img{
+    opacity: .8;
+}
+
+.footer img:hover {
+    opacity: 1;
 }

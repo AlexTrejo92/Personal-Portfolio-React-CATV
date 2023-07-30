@@ -1,16 +1,16 @@
 import React from 'react';
-import './content.css'
+import './content.css';
+import renderImg from '../../img/Rendering.png'
 
 function PortfolioContent() {
     const message = 'Hello world!';
-    // The return statement contains something called "JSX"
-    // JSX is a syntax extension to Javascript that allows us to write HTML inside Javascript
-    // Expressions in JSX should be placed in curly braces {}
     return (
       <div className="content">
+        {/* <img src={renderImg} width='100%'/> */}
+        <div className='bckimg mainCanvas'>
         <h1>{message}</h1>
         <h1>THIS WILL BE THE content for the page</h1>
-        <h1>Another one</h1>
+        <h1>Another one</h1></div>
       </div>
     );
   }
