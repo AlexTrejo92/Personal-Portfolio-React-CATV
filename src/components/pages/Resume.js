@@ -1,11 +1,11 @@
 import React from 'react';
 
-export default function Projects() {
+export default function Resume() {
   return (
     <div>
-      <h1>Projects</h1>
+      <h1>Resume</h1>
       <p>
-this are my projects
+my experience
       </p>
     </div>
   );

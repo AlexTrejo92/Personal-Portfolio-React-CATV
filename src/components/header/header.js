@@ -8,7 +8,7 @@ function Header() {
     
     <nav>
         <img src={profilePic} className='profilePic'></img>
-        <h1>Alex / Trejo</h1>
+        <h1>Alex  Trejo</h1>
         <ul className="navlinks">
             <li>
                 <a>About Me</a>
