@@ -1,23 +1,7 @@
 import React from 'react';
 import profilePic from '../img/+ ALEJANDRO TREJO_03.jpg';
 import './header/header.css'
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
 
-// const styles = {
-//     navBarStyle: {
-//         background: 'green',
-//         display: 'flex',
-//         alignItems: 'center',
-//         justifyContent: 'space-between',
-//         height: '100px',
-//     },
-//     navLinks: {
-//         display: 'flex',
-//         flexDirection: 'row',
-//         listStyle: 'none',
-//     }
-// }
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
