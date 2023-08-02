@@ -15,17 +15,25 @@ export default function Contact() {
     }
   }
   return (
-    <div>
+    <div className='mainContent'>
+      <h1>Contact:</h1>
+      <h2 style={{padding: '15px'}}>Important: This section is under work!</h2>
+      <h2 style={{padding: '15px'}}>Feel free to reach me at arq.alextrejo@gmail.com</h2>
+      <h3 style={{padding: '5px'}}>Name:</h3>
+      <form>
+        <input></input>
+      </form>
+      <h3 style={{padding: '15px'}}>E-mail:</h3>
       <form>
         <input onBlur={handleBlur}>
         
         </input>
-        <div className={error?'hide':''}>has to be email</div>
+        <div className={error?'hide':''}>your email is invalid</div>
       </form>
-      <h1>Contact</h1>
-      <p>
-      CONTACT
-      </p>
+      <h3 style={{padding: '15px'}}>Message</h3>
+      <form>
+        <input></input>
+      </form>
     </div>
   );
 }

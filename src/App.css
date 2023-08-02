@@ -50,7 +50,7 @@
 }
 
 .mainProjectStyle {
-    background-color: aqua;
+    background-color: rgb(127, 127, 146);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -72,5 +72,11 @@
     .mainContent p {
             width: 80%;
             line-height: 1.5em;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navlinks {
+        font-size: 20px;
     }
 }
