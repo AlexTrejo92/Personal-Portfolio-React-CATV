@@ -3,11 +3,10 @@
 }
 
 .bckimg {
-    background-image: url(../../img/Rendering.png);
     background-position: bottom;
     background-size: cover;
     height: 500px;
-    width: 100%;
+    width: 700px;
 }
 
 .mainCanvas {
@@ -15,4 +14,5 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+margin: 25px;
 }

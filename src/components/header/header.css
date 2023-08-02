@@ -7,8 +7,8 @@
 
 .header {
     display:flex;
-    /* justify-content: space-between;
-    align-items: center; */
+    justify-content: space-between;
+    align-items: center;
     background-image: url(../../img/pattern.jpg);
     margin: 0;
     color: #94304b;
@@ -17,7 +17,8 @@
 }
 
 .header h1 {
-    margin: 20px;
+    margin: 35px 20px;
+    text-shadow: 6px 6px 8px rgba(182, 113, 113, 0.986);
 }
 
 .navlinks {
@@ -28,12 +29,58 @@
 }
 
 .navlinks li {
-    padding: 5px;
+    padding: 10px;
+    text-transform: none;
+}
+
+/* .navlinks li a {
+    text-decoration: none;
+    color: #94304b;
+    padding: 0px 10px;
+} */
+
+.navlinks li a:hover {
+    color: #32424f;
 }
 
 .profilePic {
-    height: 100px;
+    height: 150px;
     width: auto;
-    border-radius: 50px;
-    margin: 20px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.activeLink {
+    color: #e7ddd5;
+    font-size: xx-large;
+    padding: 0px 10px;
+}
+
+.restLink {
+    color: #94304b;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+@media screen and (max-width:768px) {
+    
+    .header {
+    flex-direction: column;
+    }
+}
+
+@media screen and (max-width:425px) {
+    
+    /* .header {
+    flex-direction: column;
+    } */
+
+    .navlinks li {
+        font-size: smaller;
+        padding: 10px;
+        text-transform: none;
+    }
 }
