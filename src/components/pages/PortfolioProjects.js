@@ -7,6 +7,7 @@ import project4img from '../../img/p4.jpg';
 import project5img from '../../img/p6.jpg';
 import project6img from '../../img/p7.jpg';
 import githubicon from '../../img/icongithub.png';
+import jobjourney from '../../img/jobjourney.jpg'
 
 
 const ProjectData = [
@@ -51,6 +52,13 @@ const ProjectData = [
     urlProject: 'https://www.linkedin.com/in/alextrejovalenciapm/',
     tech: 'Architecture',
     bckImg: project2img
+  },
+  {
+    title: 'JobJourney',
+    urlRepo: 'https://github.com/1alyciaoliveira/JobJourney',
+    urlProject: 'https://ancient-everglades-97703-e6a603057067.herokuapp.com/',
+    tech: 'MERN Stack',
+    bckImg: jobjourney
   },
 ]
 

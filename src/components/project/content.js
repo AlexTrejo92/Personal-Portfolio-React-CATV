@@ -14,8 +14,8 @@ function ProjectComp({title, urlRepo, urlProject, bckImg, tech}) {
         {/* <img src={renderImg} width='100%'/> */}
         <div className='mainCanvas bckimg' style={{backgroundImage: `url(${bckImg})`}}>
           <div style={{backgroundColor: 'rgba(164, 79, 102, 0.5)', width: '100%'}}>
-            <a href={urlRepo}style={{textDecoration: 'none', fontWeight:'bold', textTransform: 'uppercase', color: 'black', fontSize: 'xx-large', paddingLeft: '5px'}}>{title}</a>
-            <a href={urlProject}><img src={githubicon} style={{height: '25px', paddingLeft: '10px'}}/></a>
+            <a href={urlProject}style={{textDecoration: 'none', fontWeight:'bold', textTransform: 'uppercase', color: 'black', fontSize: 'xx-large', paddingLeft: '5px'}}>{title}</a>
+            <a href={urlRepo}><img src={githubicon} style={{height: '25px', paddingLeft: '10px'}}/></a>
             <p style={{paddingLeft: '5px'}}>{tech}</p>
           </div>
         </div>
