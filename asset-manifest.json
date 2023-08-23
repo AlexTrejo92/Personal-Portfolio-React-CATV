@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio-React-CATV/static/css/main.fd1fe35f.css",
-    "main.js": "/Personal-Portfolio-React-CATV/static/js/main.c2a388bf.js",
+    "main.js": "/Personal-Portfolio-React-CATV/static/js/main.6fcc00dc.js",
     "static/media/Rendering.png": "/Personal-Portfolio-React-CATV/static/media/Rendering.9a596844e30d71fef79e.png",
     "static/media/+ ALEJANDRO TREJO_03.jpg": "/Personal-Portfolio-React-CATV/static/media/+ ALEJANDRO TREJO_03.5db4259a2a957c8dc4f0.jpg",
     "static/media/p6.jpg": "/Personal-Portfolio-React-CATV/static/media/p6.6bf236da93fda16e648c.jpg",
@@ -9,14 +9,15 @@
     "static/media/p7.jpg": "/Personal-Portfolio-React-CATV/static/media/p7.760df0c2b3f45e074e61.jpg",
     "static/media/p4.jpg": "/Personal-Portfolio-React-CATV/static/media/p4.3da6e2018cb61d8a5cab.jpg",
     "static/media/p1.jpg": "/Personal-Portfolio-React-CATV/static/media/p1.d8955c84decff32c774a.jpg",
+    "static/media/jobjourney.jpg": "/Personal-Portfolio-React-CATV/static/media/jobjourney.c81126f2928854c071e4.jpg",
     "static/media/p2.jpg": "/Personal-Portfolio-React-CATV/static/media/p2.70b7b5db756235363b6d.jpg",
     "static/media/p3.jpg": "/Personal-Portfolio-React-CATV/static/media/p3.f8a63612a8813edc0474.jpg",
     "index.html": "/Personal-Portfolio-React-CATV/index.html",
     "main.fd1fe35f.css.map": "/Personal-Portfolio-React-CATV/static/css/main.fd1fe35f.css.map",
-    "main.c2a388bf.js.map": "/Personal-Portfolio-React-CATV/static/js/main.c2a388bf.js.map"
+    "main.6fcc00dc.js.map": "/Personal-Portfolio-React-CATV/static/js/main.6fcc00dc.js.map"
   },
   "entrypoints": [
     "static/css/main.fd1fe35f.css",
-    "static/js/main.c2a388bf.js"
+    "static/js/main.6fcc00dc.js"
   ]
 }
